@@ -5,7 +5,7 @@ const Box = () =>{
 
   return(
     <div className={`box ${val? `dark`: `light`}`}>
-      Time to show of the {val? "Dark": "Light"} Theme!
+      Time to show off the {val? "Dark": "Light"} Theme!
     </div>
   )
 }
